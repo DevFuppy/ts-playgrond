@@ -1,0 +1,25 @@
+{
+  "name": "ts-playgrond",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "oldStart":"node dist/index.js",
+    "start": "tsx src/main.ts",
+    "watch": "tsc -w",
+    "build": "tsc",
+    "dev": "tsx watch src/main.ts",
+    "ch": "npm run dev --"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.4",
+    "typescript": "^5.9.2"
+  }
+}
