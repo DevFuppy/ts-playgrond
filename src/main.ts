@@ -4,7 +4,7 @@ console.clear(); // 每次重跑先清畫面（接近 Vite/Next 體驗）
 
 // 讀參數與預設值
 const arg = process.argv[2]?.trim();              // 例如 "02" 或 "ch02-types"
-const fallback = "ch01-intro";                     // 預設章節（找不到參數時）
+const fallback = "ch01-basicTypeRules";                     // 預設章節（找不到參數時）
 
 // 將參數正規化成資料夾名稱
 function resolveChapterName(input?: string): string {
@@ -19,8 +19,8 @@ const pattern = resolveChapterName(arg);
 
 // 掃描符合的章節（簡單做法：列出你維護的章節清單）
 const chapters = [
-  "ch01-intro",
-  "ch02-types",
+  "ch01-basicTypeRules",
+  "ch02-typeAssertions",
   "ch03-functions",
   // 之後新增章節就在這裡加一行即可
 ];
