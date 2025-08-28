@@ -53,4 +53,5 @@ let a_3: ObjC = a;                // ❌ missing juice:boolean → not assignabl
 
 ///-------
 const r:void = (():void=>{})();
- 
+
+const k = (()=>5)() as void //as報錯? function類物件這怎麼看overlap? 問gpt去比較 上面可以被斷言void回傳形式的函數
