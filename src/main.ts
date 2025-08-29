@@ -21,7 +21,7 @@ const pattern = resolveChapterName(arg);
 const chapters = [
   "ch01-basicTypeRules",
   "ch02-typeAssertions",
-  "ch03-functions",
+  "ch03-objectTyping-indexSignature",
   // 之後新增章節就在這裡加一行即可
 ];
 
